@@ -1,4 +1,4 @@
-import aboutMeImg from '../images/aboutme.jpeg'
+import aboutMeImg from '../images/aboutme.jpg'
 import { motion } from 'framer-motion'
 import SocialIcons from '../components/SocialIcons'
 import { useInView } from 'react-intersection-observer'
@@ -21,7 +21,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
     setDownloading(true)
     const link = document.createElement('a')
     link.href = resume
-    link.download = 'Michael-Yeates-Resume.pdf'
+    link.download = 'Michael-Durando-Resume.pdf'
     link.onload = () => {
       link.remove()
       setDownloading(false)
@@ -61,7 +61,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               <div className="row">
                 <div className="col-12 col-md-6 info">
                   <span>Name:</span>
-                  <p>Michael Durando</p>
+                  <p>Mike Durando</p>
                 </div>
                 <div className="col-12 col-md-6 info">
                   <span>Email:</span>

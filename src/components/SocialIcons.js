@@ -18,7 +18,7 @@ const SocialIcons = () => {
         <i
           className="fa-brands fa-github"
           aria-hidden="true"
-          title="Michael Durando' GitHub Profile"
+          title="Mike Durando' GitHub Profile"
         ></i>
       </a>
       <a
@@ -29,7 +29,7 @@ const SocialIcons = () => {
         <i
           className="fa-brands fa-linkedin"
           aria-hidden="true"
-          title="Michael Durando' LinkedIn Profile"
+          title="Mike Durando' LinkedIn Profile"
         ></i>
       </a>
     </div>
